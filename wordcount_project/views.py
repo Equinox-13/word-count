@@ -14,6 +14,9 @@ import operator
 def home(request):
 	return render(request, 'home.html')
 
+def about(request):
+	return render(request, 'about.html')
+
 
 def count(request):
 	# pull parameters from the previous page with its name
